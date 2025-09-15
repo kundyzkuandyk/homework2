@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(images/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-color: hsl(224, 23%, 55%);
+    }
+
+    .container {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 20px;
+      height: 700px;
+      gap: 20px;
+      font-size: 20px;
+      font-family: Red Hat Display;
+    }
+
+    h1 {
+      color: hsl(223, 47%, 23%);
+
+
+    }
+
+    p {
+      margin-top: -20px;
+      color: hsl(224, 23%, 55%);
+    }
+
+    .Annual {
+      background-color: hsl(225, 100%, 98%);
+      width: 300px;
+      border-radius: 10px;
+      padding: 15px 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .change {
+      padding-top: 15px;
+      color: rgb(31, 64, 184);
+    }
+
+    .change:hover {
+      color: #756bef;
+    }
+
+    .img-annual {
+      width: 35px;
+      height: 35px;
+
+
+    }
+
+    .imghero {
+      border-radius: 20px 20px 0px 0px;
+    }
+
+    .button {
+      background-color: hsl(245, 75%, 52%);
+      border: 1px solid black;
+      border-radius: 10PX;
+      padding: 15px;
+      color: white;
+      width: 400px;
+      box-shadow: 0px 0px 2px 0px hsl(223, 47%, 23%);
+    }
+
+    .button:hover {
+      background-color: #756bef;
+    }
+
+    .last {
+      color: hsl(224, 23%, 55%);
+      font-size: 15px;
+      margin-top: 10px;
+
+    }
+
+    .last:hover {
+      color: #756bef;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="images/illustration-hero.svg" class="imghero">
+
+    <h1 style="font-size: 35px;">Order Summary</h1>
+
+    <p>You can now listen to millions of songs,<BR> audiobooks, and podcasts on any
+      device <BR> anywhere you like!</p>
+    <div class="Annual">
+      <img src="images/icon-music.svg" class="img-annual">
+      <span class="grow 2"><b>Annual Plan <BR> $59.99/year</b></span>
+
+
+
+      <a href="https://www.frontendmentor.io?ref=challenge" target="Blank" class="change">Change </a>
+    </div><button class="button"> <b>Proceed to Payment</b></button>
+
+
+    <span class="last"><b> Cancel Order </b></span>
+
+
+  </div>
+</body>
+
+</html>
